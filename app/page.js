@@ -38,17 +38,17 @@ export default function Home() {
             <p>Repudiandae sint nulla impedit. Et non eum inventore dignissimos. Quasi illo quis quia omnis consequatur qui.</p>
           </a>
 
-          <a href=" " className={styles.card}>
+          <a href="/showcase/Kritios" className={styles.card}>
             <h2>Kritios &rarr;</h2>
             <p>Rerum accusamus consequatur commodi qui unde sit iusto. Facilis est autem est laborum corporis eligendi. Nisi soluta qui consequatur hic. Voluptatum eos minus repudiandae.</p>
           </a>
 
-          <a href=" " className={styles.card}>
+          <a href="/showcase/Doryphoros" className={styles.card}>
             <h2>Doryphoros &rarr;</h2>
             <p>Molestiae quibusdam quasi assumenda cupiditate minima recusandae facilis magnam. Delectus sit itaque qui recusandae dignissimos et fuga esse. Rerum minus sed dignissimos et voluptatibus alias.</p>
           </a>
 
-          <a href=" " target="_blank" rel="noopener noreferrer" className={styles.card}>
+          <a href="/showcase/Discobolus" className={styles.card}>
             <h2>Discobolus &rarr;</h2>
             <p>Officia id repellat adipisci autem sit culpa. Sed porro tempore doloribus deleniti enim. Molestiae illo praesentium voluptatibus rem et dolores.</p>
           </a>
