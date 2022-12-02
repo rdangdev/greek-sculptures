@@ -29,5 +29,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 
 ## Todo
-- fix that damn showcase redirect to root(/)
+- fix that damn showcase redirect to root(/) - DONE(further testing required)
 - proper 404 support
