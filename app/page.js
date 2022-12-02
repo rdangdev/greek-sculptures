@@ -33,7 +33,7 @@ export default function Home() {
            </p> */}
 
         <div className={styles.grid}>
-          <a href=" " className={styles.card}>
+          <a href="/showcase/Kouros" className={styles.card}>
             <h2>Kouros &rarr;</h2>
             <p>Repudiandae sint nulla impedit. Et non eum inventore dignissimos. Quasi illo quis quia omnis consequatur qui.</p>
           </a>
