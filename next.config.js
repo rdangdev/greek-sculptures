@@ -7,7 +7,16 @@ module.exports = {
         source: '/showcase',
         destination: '/',
         permanent: true,
+        basePath: false,
+        locale: false,
       },
+      // {
+      //   source: '/:slug*',
+      //   destination: '/',
+      //   permanent: false, /* this is permanent, using temp for developing */
+      //   basePath: false,
+      //   locale: false,
+      // },
     ]
   },
   reactStrictMode: true,
