@@ -8,19 +8,22 @@ export default function Home() {
       <Head>
         <title>Classical Studies: Greek Sculptures</title>
         <meta name="description" content="Showcase of Ancient Greek Sculptures" />
-        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> #TODO: fix this
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href=" ">Greek Sculptures</a> Showcase
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Peer-reviewed analyses of the Ancient Greek Sculptures{' '}
         </p>
+
+        {/* <p className={styles.underDescription}> #TODO: implement view more or smth. idk i just like the cool button.
+          <code className={styles.code}>view more</code>
+           </p> */}
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
