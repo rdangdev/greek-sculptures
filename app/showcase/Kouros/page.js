@@ -35,10 +35,6 @@ export default function Kouros() {
         </h1>
 
         <div className={styles.grid}>
-          /*<Image src='/images/greek-sculptures/zoi.jpg' fill sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-    fill blur
-              33vw"/> */
           <img src='/images/greek-sculptures/zoi.jpg' />
           <a href="/showcase/Kouros" className={styles.card}>
             <h2>Kouros &rarr;</h2>
