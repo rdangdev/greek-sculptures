@@ -1,8 +1,23 @@
-
+/* page.js showcase/kouros */
 import Head from 'next/head'
-// import Image from 'next/image'
-import styles from '../../../styles/Home.module.css'
+import Image from 'next/image'
+import styles from '../../../styles/showcase.module.css'
 import '../../../styles/globals.css'
+
+function image(props) {
+  // const name = props.src;
+  return (
+    <div className="main-image">
+      <Image
+        src={'/images/greek-sculptures/' + props.src}
+        alt='image of Kouros'
+        fill blur
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      />
+    </div>
+  )
+};
+
 
 export default function Kouros() {
   return (
@@ -20,6 +35,11 @@ export default function Kouros() {
         </h1>
 
         <div className={styles.grid}>
+          /*<Image src='/images/greek-sculptures/zoi.jpg' fill sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+    fill blur
+              33vw"/> */
+          <img src='/images/greek-sculptures/zoi.jpg' />
           <a href="/showcase/Kouros" className={styles.card}>
             <h2>Kouros &rarr;</h2>
             <p>Repudiandae sint nulla impedit. Et non eum inventore dignissimos. Quasi illo quis quia omnis consequatur qui.</p>
